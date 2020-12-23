@@ -538,7 +538,7 @@ button{
 }
 
 .footer{
-    background-image: url(../../images/blwh1.png);
+    background-image: url('../../images/blwh1.png');
     background-color: rgb(255, 255, 255);
     width: 100vw;
     overflow: hidden;   
@@ -624,7 +624,7 @@ button{
 }
 
 .footer__icon-right{
-    margin-right: 19px;
+    margin-right: 17px;
 }
 
 .footer__text-medium-mobile{
@@ -637,6 +637,10 @@ button{
         line-height: 1;
         margin-top: 60px;
         margin-bottom: 40px;
+    }
+
+    .footer__icon-right{
+        margin-right: 15px;
     }
 
     .footer__container-left{
