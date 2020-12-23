@@ -1,0 +1,17 @@
+.header__container{
+    max-width: 1170px;
+    margin: 0 auto 0 auto;
+    
+}
+
+@media screen and (max-width: 1170px){
+    .header__container{
+        width: 82%;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header__container{
+        width: 90%;
+    }
+}

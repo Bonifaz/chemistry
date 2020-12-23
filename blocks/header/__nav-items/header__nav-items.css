@@ -1,0 +1,24 @@
+.header__nav-items{
+    display: flex;
+}
+
+.header__nav-items .header__nav-title{
+    margin-right: 50px;
+}
+
+@media screen and (max-width: 1170px){
+    .header__nav-items .header__nav-title{
+        margin-right: 30px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .header__nav-items .header__nav-title{
+        margin-right: 15px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .header__container{
+    }
+}

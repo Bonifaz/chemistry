@@ -1,0 +1,17 @@
+.page{
+    font-family: "Roboto", Arial, sans-serif;
+    overflow: hidden;
+}
+
+@media screen and (max-width: 1170px){
+    .page{
+        
+    }
+    
+}
+
+@media screen and (max-width: 500px){
+    .page{
+        min-width: 320px;
+    }
+}

@@ -1,0 +1,9 @@
+.header__nav-call-number{
+    display: flex;
+    align-items: baseline;
+    flex-wrap: nowrap;
+}
+
+.header__nav-call-number .header__nav-title{
+    margin-right: 0;
+}

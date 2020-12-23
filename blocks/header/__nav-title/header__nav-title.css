@@ -1,0 +1,7 @@
+.header__nav-title{
+    white-space: nowrap;
+}
+
+.header__nav-title:hover{
+    cursor: pointer;
+}
