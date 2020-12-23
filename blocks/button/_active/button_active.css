@@ -1,0 +1,12 @@
+.button_active{
+    border: 2px solid rgb(102, 178, 46); 
+    border-radius: 10px;
+    color: rgb(102, 178, 46);
+    padding: 10px 35px 10px 35px;
+}
+
+@media screen and (max-width: 500px){
+    .button_active{
+        padding: 7px 10px 7px 10px;
+    }
+} 

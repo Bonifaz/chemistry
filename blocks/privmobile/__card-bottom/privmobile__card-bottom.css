@@ -1,0 +1,7 @@
+@media screen and (max-width: 500px){
+    .privmobile__card-bottom{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+    }
+}

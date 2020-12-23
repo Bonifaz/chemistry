@@ -1,0 +1,13 @@
+.product__title{
+    margin: 150px auto 35px auto;
+    font-size: 34px;
+    line-height: 0.706;
+}
+
+@media screen and (max-width: 500px){
+    .product__title{
+        margin: 100px auto 20px auto;
+        font-size: 24px;
+        line-height: 1;
+    }
+}

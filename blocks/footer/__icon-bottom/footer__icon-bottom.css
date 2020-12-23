@@ -1,0 +1,9 @@
+.footer__icon-bottom{
+    margin-left: 7px;
+}
+
+@media screen and (max-width: 500px){
+    .footer__icon-bottom{
+        display: none;
+    }
+}

@@ -1,0 +1,11 @@
+.footer__info{
+    display: flex;
+    align-items: center;
+    margin-bottom: 53px;
+}
+
+@media screen and (max-width: 500px){
+    .footer__info{
+        margin-bottom: 20px;
+    }
+}

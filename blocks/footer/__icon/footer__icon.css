@@ -1,0 +1,10 @@
+.footer__icon{
+    object-fit: contain;
+    margin-right: 15px;
+}
+
+@media screen and (max-width: 500px){
+    .footer__icon{
+        width: 25px;
+    }
+}

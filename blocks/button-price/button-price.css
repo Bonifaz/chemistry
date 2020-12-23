@@ -1,0 +1,22 @@
+.button-price{
+    margin-top: 57px;
+    color: white;
+    background-image: url(../../images/price-button.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 262px;
+    height: 64px;
+}
+
+.button-price:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 600px){
+    .button-price{
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+    }
+}

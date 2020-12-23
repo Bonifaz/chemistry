@@ -1,0 +1,16 @@
+.product__section-antifreeze{
+    font-size: 22px;
+    line-height: 1.455;
+}
+
+.product__section-antifreeze:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+    .product__section-antifreeze{
+        width: 150px;
+        font-size: 15px;
+        line-height: 1.6; 
+     }
+}

@@ -1,0 +1,11 @@
+.privilege__card-icon{
+    display: block;
+    margin: 0 auto -25px auto;
+}
+
+@media screen and (max-width: 500px){
+    .privilege__card-icon{
+        margin: 0;
+        object-fit: contain;
+    }
+}

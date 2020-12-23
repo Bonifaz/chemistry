@@ -1,0 +1,22 @@
+.hero{
+    width: 100%;
+    margin-top: 60px;
+}
+
+@media screen and (max-width: 1170px){
+    .hero{
+        padding-bottom: 140px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .hero{
+        padding-bottom: 80px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero{
+        padding-bottom: 60px;
+    }
+}

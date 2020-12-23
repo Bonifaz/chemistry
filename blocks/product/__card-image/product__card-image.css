@@ -1,0 +1,14 @@
+.product__card-image{
+    object-fit: cover;
+    border: 1px solid  rgb(102, 178, 46);
+    border-radius: 10px;   
+    height: 393px;
+}
+
+@media screen and (max-width: 500px){
+    .product__card-image{
+        height: 120px;
+        margin-right: 15px;
+        width: 107px;
+    }
+}

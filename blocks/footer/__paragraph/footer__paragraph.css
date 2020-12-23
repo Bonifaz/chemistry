@@ -1,0 +1,5 @@
+.footer__paragraph{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 35px;
+}

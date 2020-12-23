@@ -1,0 +1,20 @@
+.product__subtitle{
+    width: 65%;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.333;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width: 700px){
+    .product__subtitle{
+        width: 85%;
+    }
+}
+
+@media screen and (max-width: 500px){
+    .product__subtitle{
+        display: none;
+    }
+}

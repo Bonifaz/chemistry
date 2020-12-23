@@ -1,0 +1,25 @@
+.hero__image{
+    max-width: 741px;
+    margin-right: -133px;
+    object-fit: contain;
+}
+
+@media screen and (max-width: 1170px){
+    .hero__image{
+        max-width: 500px;
+        margin-right: -80px;
+    }
+}
+
+@media screen and (max-width: 900px){
+    .hero__image{
+        max-width: 400px;
+        margin-right: -50px;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .hero__image{
+        display: none;
+    }
+}

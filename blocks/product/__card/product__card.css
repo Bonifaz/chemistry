@@ -1,0 +1,10 @@
+.product__card{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 500px){
+    .product__card{
+        flex-direction: row;
+    }
+}

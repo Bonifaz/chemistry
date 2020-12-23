@@ -1,0 +1,17 @@
+.product__section-solvents{
+    margin-right: 50px;
+    font-size: 22px;
+    line-height: 1.455;
+}
+
+.product__section-solvents:hover{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 500px){
+    .product__section-solvents{
+        margin-right: 15px;
+        font-size: 15px;
+        line-height: 1.6; 
+    }
+}

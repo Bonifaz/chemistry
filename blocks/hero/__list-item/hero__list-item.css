@@ -1,0 +1,24 @@
+.hero__list-item {
+    font-size: 22px;
+    line-height: 1.545;
+}  
+
+@media screen and (max-width: 600px){
+    .hero__list-item {
+        font-size: 20px;
+        text-align: center;
+    }  
+}
+  
+.hero__list-item::before{
+    content: url(../../../images/disk-list-hero.png);
+    margin-right: 25px;
+    position: relative;
+    bottom: 2px;
+}
+
+@media screen and (max-width: 600px){
+    .hero__list-item::before{
+        display: none;
+    }  
+}
