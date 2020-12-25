@@ -1,0 +1,13 @@
+.footer__text-medium-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+
+    .footer__text-medium-mobile{
+        display: block;
+        font-size: 13px;
+        line-height: 1.538;
+        font-weight: 300;
+    }
+}

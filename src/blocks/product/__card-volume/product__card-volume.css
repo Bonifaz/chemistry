@@ -1,0 +1,14 @@
+.product__card-volume{
+    word-spacing: 3px;
+    font-size: 18px;
+    line-height: 1.778;
+    margin-bottom: 15px;
+    font-weight: 300;
+}
+
+@media screen and (max-width: 500px){
+    .product__card-volume{
+        font-size: 15px;
+        margin-bottom: 0;
+    }
+}

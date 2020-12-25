@@ -1,0 +1,10 @@
+.privilege{
+    max-width: 1170px;
+    margin: 0 auto 70px auto;
+}
+
+@media screen and (max-width: 500px){
+    .privilege{
+        display: none;
+    }
+}

@@ -1,0 +1,15 @@
+.product__card-title{
+    margin-top: 31px;
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 1.455;
+    font-weight: 500;
+}
+
+@media screen and (max-width: 500px){
+    .product__card-title{
+        font-size: 17px;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+}

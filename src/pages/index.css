@@ -1,0 +1,205 @@
+@import url(../fonts/roboto/roboto.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__container/header__container.css);
+@import url(../blocks/header/__logo/header__logo.css);
+@import url(../blocks/header/__navigation/header__navigation.css);
+@import url(../blocks/header/__navigation-container/header__navigation-container.css);
+@import url(../blocks/header/__nav-items/header__nav-items.css);
+@import url(../blocks/header/__nav-element/header__nav-element.css);
+@import url(../blocks/header/__nav-call/header__nav-call.css);
+@import url(../blocks/header/__nav-call-number/header__nav-call-number.css);
+@import url(../blocks/header/__nav-title/header__nav-title.css);
+@import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger/_active/header__burger_active.css);
+
+@import url(../blocks/hero/hero.css);
+@import url(../blocks/hero/__description/hero__description.css);
+@import url(../blocks/hero/__title/hero__title.css);
+@import url(../blocks/hero/__list/hero__list.css);
+@import url(../blocks/hero/__list-item/hero__list-item.css);
+@import url(../blocks/hero/__image/hero__image.css);
+
+@import url(../blocks/hero-container/hero-container.css);
+
+@import url(../blocks/button-price/button-price.css);
+
+@import url(../blocks/button/button.css);
+
+@import url(../blocks/button/_active/button_active.css);
+
+@import url(../blocks/li/li.css);
+
+@import url(../blocks/product/product.css);
+@import url(../blocks/product/__title/product__title.css);
+@import url(../blocks/product/__sections/product__sections.css);
+@import url(../blocks/product/__section-solvents/product__section-solvents.css);
+@import url(../blocks/product/__section-antifreeze/product__section-antifreeze.css);
+@import url(../blocks/product/__subtitle/product__subtitle.css);
+@import url(../blocks/product/__subtitle-mobile/product__subtitle-mobile.css);
+@import url(../blocks/product/__cards/product__cards.css);
+@import url(../blocks/product/__card/product__card.css);
+@import url(../blocks/product/__card-image/product__card-image.css);
+@import url(../blocks/product/__card-title/product__card-title.css);
+@import url(../blocks/product/__card-volume/product__card-volume.css);
+@import url(../blocks/product/__card-comment/product__card-comment.css);
+@import url(../blocks/product/__card-new/product__card-new.css);
+@import url(../blocks/product/__card-button/product__card-button.css);
+@import url(../blocks/product/__button-icon/product__button-icon.css);
+@import url(../blocks/product/__card-info/product__card-info.css);
+
+@import url(../blocks/privilege/privilege.css);
+@import url(../blocks/privilege/__title/privilege__title.css);
+@import url(../blocks/privilege/__container/privilege__container.css);
+@import url(../blocks/privilege/__cards-left/privilege__cards-left.css);
+@import url(../blocks/privilege/__cards-right/privilege__cards-right.css);
+@import url(../blocks/privilege/__card-title/privilege__card-title.css);
+@import url(../blocks/privilege/__card/privilege__card.css);
+@import url(../blocks/privilege/__card-icon/privilege__card-icon.css);
+@import url(../blocks/privilege/__card-text/privilege__card-text.css);
+@import url(../blocks/privilege/__card-bottommarg/privilege__card-bottommarg.css);
+@import url(../blocks/privilege/__image/privilege__image.css);
+
+@import url(../blocks/privmobile/privmobile.css);
+@import url(../blocks/privmobile/__cards-top/privmobile__cards-top.css);
+@import url(../blocks/privmobile/__card/privmobile__card.css);
+@import url(../blocks/privmobile/__subtitle/privmobile__subtitle.css);
+@import url(../blocks/privmobile/__card-bottom/privmobile__card-bottom.css);
+@import url(../blocks/privmobile/__subtitle-bottom/privmobile__subtitle-bottom.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__container/footer__container.css);
+@import url(../blocks/footer/__containers/footer__containers.css);
+@import url(../blocks/footer/__container-left/footer__container-left.css);
+@import url(../blocks/footer/__title/footer__title.css);
+@import url(../blocks/footer/__text/footer__text.css);
+@import url(../blocks/footer/__text-medium/footer__text-medium.css);
+@import url(../blocks/footer/__icon/footer__icon.css);
+@import url(../blocks/footer/__paragraph/footer__paragraph.css);
+@import url(../blocks/footer/__paragraph-bottom/footer__paragraph-bottom.css);
+@import url(../blocks/footer/__container-medium/footer__container-medium.css);
+@import url(../blocks/footer/__icon-bottom/footer__icon-bottom.css);
+@import url(../blocks/footer/__container-right/footer__container-right.css);
+@import url(../blocks/footer/__info/footer__info.css);
+@import url(../blocks/footer/__icon-right/footer__icon-right.css);
+@import url(../blocks/footer/__text-medium-mobile/footer__text-medium-mobile.css);
+
+* > *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-weight: normal;
+    font-style: normal;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.footer__text-right{
+    font-weight: 300;
+}
+
+.product__mob-minititle{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.product__mob-minititle{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .product__mob-minititle{
+        display: block;
+    }
+}
+
+.product__card-image-mobile{
+    object-fit: contain;
+}
+
+@media screen and (max-width: 500px){
+    .product__card-antifreez-mobile{
+        display: flex;
+        margin-bottom: 25px;
+    }
+}
+
+.product__anti-title{
+    width: 80%;
+}
+
+.product__cards-solvents-active{
+    display: grid;
+}
+
+.product__cards-antifreez-active{
+    display: grid;
+}
+  
+.pop-up{
+    width: 100%;
+    display: none;
+    padding: 40px 40px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    top: 74px;
+    left: 0;
+    z-index: 3;
+}
+
+.pop-up__items :first-of-type{
+    margin-top: 0px;
+}
+
+.pop-up__item{
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.pop-up__button{
+    font-size: 18px;
+    text-align: left;
+}
+
+.pop-up__button_production::before{
+    content: url(../images/disk-list-hero.png);
+    margin-right: 11px;
+    position: relative;
+    bottom: 2px;
+}
+
+.pop-up_is-open{
+    display: block;
+}
+
+.overlay::after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
+  
+  
+
+
+  
+
+
+  
+
+  

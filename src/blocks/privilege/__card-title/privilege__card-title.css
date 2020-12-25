@@ -1,0 +1,12 @@
+.privilege__card-title{
+    text-align: center;
+    width: 100%;
+    font-size: 22px;
+    line-height: 1.091;
+    border: 2px solid  rgb(102, 178, 46);
+    border-radius: 10px;
+    padding: 20px 0 20px 0;
+    margin-bottom: 23px;
+    margin-right: 0;
+    font-weight: 400;
+}
