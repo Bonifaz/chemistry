@@ -9,5 +9,10 @@
         width: 36px;
         height: 30px;
         background-image: url(./../../../images/burger.png);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        position: relative;
+        z-index: 4;
     }
 }

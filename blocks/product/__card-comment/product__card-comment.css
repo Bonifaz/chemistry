@@ -2,6 +2,7 @@
     font-size: 18px;
     color: rgb(102, 178, 46);
     line-height: 1.778;
+    font-weight: 300;
 }
 
 @media screen and (max-width: 500px){

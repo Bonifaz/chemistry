@@ -1,10 +1,15 @@
 .product__card-button{
     margin: 0 auto 150px auto;
+    font-weight: 500;
 }
 
 @media screen and (max-width: 500px){
     .product__card-button{
-        background-image: url(../images/Прямоугольниmobile\ 3.png);
+        background-image: url(../../../images/Прямоугольниmobile\ 3.png);
         margin-bottom: 100px;
+        font-family: "Roboto", Arial, sans-serif;
+        font-weight: 400;
     }
 }
+
+

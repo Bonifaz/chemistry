@@ -1,6 +1,7 @@
 .hero__list-item {
     font-size: 22px;
     line-height: 1.545;
+    font-weight: 300;
 }  
 
 @media screen and (max-width: 600px){

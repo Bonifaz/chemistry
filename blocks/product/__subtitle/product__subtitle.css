@@ -5,6 +5,7 @@
     line-height: 1.333;
     margin: auto;
     margin-bottom: 50px;
+    font-weight: 300;
 }
 
 @media screen and (max-width: 700px){
@@ -15,6 +16,13 @@
 
 @media screen and (max-width: 500px){
     .product__subtitle{
-        display: none;
+        display: block;
+        text-align: center;
+        margin: auto;
+        width: 81.5%;
+        font-size: 12px;
+        color: rgb(143, 143, 143);
+        line-height: 1.5; 
+        margin-bottom: 30px;
     }
 }

@@ -7,3 +7,10 @@
 .header__nav-call-number .header__nav-title{
     margin-right: 0;
 }
+
+.header__nav-call-number:hover .header__nav-element{
+    color: black;
+} 
+.header__nav-call-number:hover .header__nav-call{
+    background-image: url(../../../images/phone-call-black.png);
+}

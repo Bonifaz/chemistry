@@ -6,6 +6,7 @@
 @media screen and (max-width: 500px){
     .privilege__card-icon{
         margin: 0;
+        width: 70px;
         object-fit: contain;
     }
 }

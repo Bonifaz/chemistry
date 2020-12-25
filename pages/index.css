@@ -13,6 +13,7 @@
 @import url(../blocks/header/__nav-call-number/header__nav-call-number.css);
 @import url(../blocks/header/__nav-title/header__nav-title.css);
 @import url(../blocks/header/__burger/header__burger.css);
+@import url(../blocks/header/__burger/_active/header__burger_active.css);
 
 @import url(../blocks/hero/hero.css);
 @import url(../blocks/hero/__description/hero__description.css);
@@ -93,6 +94,105 @@
     font-style: normal;
 }
 
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 300;
+}
+
+.footer__text-right{
+    font-weight: 300;
+}
+
+.product__mob-minititle{
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+.product__mob-minititle{
+    display: none;
+}
+
+@media screen and (max-width: 500px){
+    .product__mob-minititle{
+        display: block;
+    }
+}
+
+.product__card-image-mobile{
+    object-fit: contain;
+}
+
+@media screen and (max-width: 500px){
+    .product__card-antifreez-mobile{
+        display: flex;
+        margin-bottom: 25px;
+    }
+}
+
+.product__anti-title{
+    width: 80%;
+}
+
+.product__cards-solvents-active{
+    display: grid;
+}
+
+.product__cards-antifreez-active{
+    display: grid;
+}
+  
+.pop-up{
+    width: 100%;
+    display: none;
+    padding: 40px 40px;
+    position: absolute;
+    background-color: white;
+    border-radius: 10px;
+    top: 74px;
+    left: 0;
+    z-index: 3;
+}
+
+.pop-up__items :first-of-type{
+    margin-top: 0px;
+}
+
+.pop-up__item{
+    margin-top: 32px;
+    cursor: pointer;
+}
+
+.pop-up__button{
+    font-size: 18px;
+    text-align: left;
+}
+
+.pop-up__button_production::before{
+    content: url(../images/disk-list-hero.png);
+    margin-right: 11px;
+    position: relative;
+    bottom: 2px;
+}
+
+.pop-up_is-open{
+    display: block;
+}
+
+.overlay::after {
+    content: '';
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background: rgba(0, 0, 0, .5);
+    z-index: 1;
+}
   
   
 
