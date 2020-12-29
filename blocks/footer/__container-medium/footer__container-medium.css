@@ -7,5 +7,6 @@
 @media screen and (max-width: 500px){
     .footer__container-medium{
         width: 100%;
+        text-align: justify;
     }
 }

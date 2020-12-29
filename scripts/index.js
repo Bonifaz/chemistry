@@ -75,8 +75,8 @@ buttonPrices.forEach(button => {
 });
 
 productSolventsButton.addEventListener('click', () =>{
-    productAntifreezButton.classList.toggle('button_active');
-    productSolventsButton.classList.toggle('button_active');
+    productAntifreezButton.classList.remove('button_active');
+    productSolventsButton.classList.add('button_active');
     gridSolvents.classList.add(gridSolventsClassActive);
     gridAntifreez.classList.remove(gridAntifreezClassActive);
     gridMobileTitle.textContent = 'Растворители';
@@ -85,8 +85,8 @@ productSolventsButton.addEventListener('click', () =>{
 });
 
 productAntifreezButton.addEventListener('click', () =>{
-    productAntifreezButton.classList.toggle('button_active');
-    productSolventsButton.classList.toggle('button_active');
+    productAntifreezButton.classList.add('button_active');
+    productSolventsButton.classList.remove('button_active');
     gridSolvents.classList.remove(gridSolventsClassActive);
     gridAntifreez.classList.add(gridAntifreezClassActive);
     gridMobileTitle.textContent = 'Незамерзающая жидкость';

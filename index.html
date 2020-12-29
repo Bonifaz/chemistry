@@ -14,7 +14,7 @@
             <header class="header">
                 <div class="header__container">
                     <div class="header__navigation-container">
-                        <img class="header__logo" src="images/ges logo_Монтажная область 1 копия 2.svg" alt="Логотип">
+                        <img class="header__logo" src="images/ges_logo.svg" alt="Логотип">
 
                         <nav class="header__navigation">
                             <ul class="header__nav-items">
@@ -27,7 +27,10 @@
                                 </li>
                             </ul>
                         </nav>
-                        <button class="header__burger"></button>
+                        <div class="header__buttons">
+                            <a class="header__phone" href="tel:+375299980098"><img class="header__phone-image" src="images/phone-header-call.svg"></a>
+                            <button class="header__burger"></button>
+                        </div>
                     </div>
                     <div class="hero">
                         <div class="hero-container">
@@ -47,10 +50,12 @@
                 </div>
             </header>
 
+
             <main class="content">
 
                 <section class="product">
-                    <h2 class="product__title" id="production">НАША ПРОДУКЦИЯ</h2>
+                    <a class="achor" id="production"></a>
+                    <h2 class="product__title">НАША ПРОДУКЦИЯ</h2>
                     <div class="product__sections">
                         <button type="button" class="product__section-solvents button_active">Растворители</button>
                         <button type="button" class="product__section-antifreeze ">Незамерзающие жидкости</button>
@@ -63,7 +68,7 @@
                             <img class="product__card-image" alt="Жидкость" src="images/р-646 0,5.png">
                             <div class="product__card-info">
                                 <p class="product__card-title">Растворитель Р - 646</p>
-                                <p class="product__card-volume">Объем: <br class="product__card-new">0,5л 1л 5л 10л 20л<br class="product__card-new"></p>
+                                <p class="product__card-volume">Объем: <span class="product__card-new">0,5л 1л 5л 10л 20л</span></p>
                                 <p class="product__card-comment">Возможен разлив в бочки</p>
                             </div>
                         </div>
@@ -72,7 +77,7 @@
                             <img class="product__card-image" alt="Жидкость" src="images/p-4 0,5.png">
                             <div class="product__card-info">
                                 <p class="product__card-title">Растворитель Р - 4</p>
-                                <p class="product__card-volume">Объем: <br class="product__card-new">0,5л 1л 5л 10л 20л</br></p>
+                                <p class="product__card-volume">Объем: <span class="product__card-new">0,5л 1л 5л 10л 20л</span></p>
                                 <p class="product__card-comment">Возможен разлив в бочки</p>
                             </div>
                         </div>
@@ -81,7 +86,7 @@
                             <img class="product__card-image" alt="Жидкость" src="images/solvent 0,5.png">
                             <div class="product__card-info">
                                 <p class="product__card-title">Сольвент</p>
-                                <p class="product__card-volume">Объем: <br class="product__card-new">0,5л 1л 5л 10л 20л</br></p>
+                                <p class="product__card-volume">Объем: <span class="product__card-new">0,5л 1л 5л 10л 20л</span></p>
                                 <p class="product__card-comment">Возможен разлив в бочки</p>
                             </div>
                         </div>
@@ -90,7 +95,7 @@
                             <img class="product__card-image" alt="Жидкость" src="images/yait-spirit 0,5.png">
                             <div class="product__card-info">
                                 <p class="product__card-title">Уайт-спирит С - 4</p>
-                                <p class="product__card-volume">Объем: <br class="product__card-new">0,5л 1л 5л 10л 20л</br></p>
+                                <p class="product__card-volume">Объем: <span class="product__card-new">0,5л 1л 5л 10л 20л</span></p>
                                 <p class="product__card-comment">Возможен разлив в бочки</p>
                             </div>
                         </div>
@@ -99,7 +104,7 @@
                             <img class="product__card-image" alt="Жидкость" src="images/nefras 0,5.png">
                             <div class="product__card-info">
                                 <p class="product__card-title">Нефрас С - 2</p>
-                                <p class="product__card-volume">Объем: <br class="product__card-new">0,5л 1л 5л 10л 20л</br></p>
+                                <p class="product__card-volume">Объем: <span class="product__card-new">0,5л 1л 5л 10л 20л</span></p>
                                 <p class="product__card-comment">Возможен разлив в бочки</p>
                             </div>
                         </div>
@@ -108,7 +113,7 @@
                             <img class="product__card-image" alt="Жидкость" src="images/aceton 0,5.png">
                             <div class="product__card-info">
                                 <p class="product__card-title">Ацетон</p>
-                                <p class="product__card-volume">Объем: <br class="product__card-new">0,5л 1л 5л 10л 20л</br></p>
+                                <p class="product__card-volume">Объем: <span class="product__card-new">0,5л 1л 5л 10л 20л</span></p>
                                 <p class="product__card-comment">Возможен разлив в бочки</p>
                             </div>
                         </div>
@@ -118,7 +123,7 @@
                             <img class="product__card-image product__card-image-mobile" alt="Жидкость" src="images/nezamerzajka.png">
                             <div class="product__card-info">
                                 <p class="product__card-title product__anti-title">Незамерзающая жидкость Crystal A-20</p>
-                                <p class="product__card-volume">Объем: <br class="product__card-new">4л 5л</br></p>
+                                <p class="product__card-volume">Объем: <span class="product__card-new">4л 5л</span></p>
                                 <p class="product__card-comment">Возможен разлив в бочки</p>
                             </div>
                         </div>
@@ -194,11 +199,12 @@
             </main>
 
             <footer class="footer">
+                <a class="achor" id="contacts"></a>
                 <div class="footer__container" id="contacts">
                     <h2 class="footer__title">КОНТАКТЫ</h2>
                     <div class="footer__containers">
                         <div class="footer__container-left">
-                            <img class="footer__logo" src="images/geslogo.png" alt="Логотип">
+                            <img class="footer__logo" src="images/ges_logo.svg" alt="Логотип">
                             <p class="footer__text">Собственное производство технических жидкостей, спиртосодержащей продукции 
                             и растворителей высочайшего качества</p>
                         </div>
@@ -212,7 +218,7 @@
                                 <p class="footer__text-medium-mobile">ИП Кардашова Алла Николаевна
                                     <br>УНП 193169876</br>
                                     Юр. адрес: г.Минск, ул.Кулешова, 14/53
-                                    Адрес производства: Гомельская обл., 
+                                    <br/>Адрес производства: Гомельская обл., 
                                     г.Рогачев, ул.Кожедуба, 1</p>
                                 
                             </div>

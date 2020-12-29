@@ -1,18 +1,12 @@
 .header__burger{
-    display: none;
-}
-
-@media screen and (max-width: 600px){
-    .header__burger{
-        align-self: center;
-        display: block;
-        width: 36px;
-        height: 30px;
-        background-image: url(./../../../images/burger.png);
-        background-size: cover;
-        background-position: center;
-        background-repeat: no-repeat;
-        position: relative;
-        z-index: 4;
-    }
+    align-self: center;
+    display: block;
+    width: 36px;
+    height: 30px;
+    background-image: url(./../../../images/burger.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 4;
 }

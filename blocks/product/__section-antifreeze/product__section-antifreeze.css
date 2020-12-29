@@ -1,6 +1,7 @@
 .product__section-antifreeze{
     font-size: 22px;
     line-height: 1.455;
+    padding: 10px 35px 10px 25px;
 }
 
 .product__section-antifreeze:hover{
@@ -12,5 +13,6 @@
         width: 150px;
         font-size: 15px;
         line-height: 1.6; 
+        padding: 7px 10px 7px 10px;
      }
 }
