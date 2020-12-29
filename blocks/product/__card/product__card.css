@@ -1,11 +1,12 @@
 .product__card{
     display: flex;
     flex-direction: column;
-    margin-bottom: 35px;
+    margin-bottom: 56px;
 }
 
 @media screen and (max-width: 500px){
     .product__card{
         flex-direction: row;
+        margin-bottom: 30px;
     }
 }

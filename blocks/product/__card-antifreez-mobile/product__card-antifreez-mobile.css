@@ -1,0 +1,6 @@
+@media screen and (max-width: 500px){
+    .product__card-antifreez-mobile{
+        display: flex;
+        margin-bottom: 25px;
+    }
+}

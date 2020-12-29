@@ -2,6 +2,7 @@
     margin-right: 50px;
     font-size: 22px;
     line-height: 1.455;
+    padding: 10px 25px 10px 35px;
 }
 
 .product__section-solvents:hover{
@@ -13,5 +14,6 @@
         margin-right: 15px;
         font-size: 15px;
         line-height: 1.6; 
+        padding: 7px 10px 7px 10px;
     }
 }

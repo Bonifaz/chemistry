@@ -49,6 +49,13 @@
 @import url(../blocks/product/__card-button/product__card-button.css);
 @import url(../blocks/product/__button-icon/product__button-icon.css);
 @import url(../blocks/product/__card-info/product__card-info.css);
+@import url(../blocks/product/__mob-minititle/product__mob-minititle.css);
+@import url(../blocks/product/__card-image-mobile/product__card-image-mobile.css);
+@import url(../blocks/product/__card-antifreez-mobile/product__card-antifreez-mobile.css);
+@import url(../blocks/product/__anti-title/product__anit-title.css);
+
+@import url(../blocks/product/__cards-solvents-active/product__cards-solvents-active.css);
+@import url(../blocks/product/__cards-antifreez-active/product__cards-antifreez-active.css);
 
 @import url(../blocks/privilege/privilege.css);
 @import url(../blocks/privilege/__title/privilege__title.css);
@@ -80,6 +87,7 @@
 @import url(../blocks/footer/__paragraph/footer__paragraph.css);
 @import url(../blocks/footer/__paragraph-bottom/footer__paragraph-bottom.css);
 @import url(../blocks/footer/__container-medium/footer__container-medium.css);
+@import url(../blocks/footer/__text-right/footer__text-right.css);
 @import url(../blocks/footer/__icon-bottom/footer__icon-bottom.css);
 @import url(../blocks/footer/__container-right/footer__container-right.css);
 @import url(../blocks/footer/__info/footer__info.css);
@@ -100,50 +108,6 @@ a{
     font-weight: 300;
 }
 
-.footer__text-right{
-    font-weight: 300;
-}
-
-.product__mob-minititle{
-    text-align: center;
-    font-size: 15px;
-    line-height: 1.6;
-    font-weight: 400;
-    margin-bottom: 11px;
-}
-
-.product__mob-minititle{
-    display: none;
-}
-
-@media screen and (max-width: 500px){
-    .product__mob-minititle{
-        display: block;
-    }
-}
-
-.product__card-image-mobile{
-    object-fit: contain;
-}
-
-@media screen and (max-width: 500px){
-    .product__card-antifreez-mobile{
-        display: flex;
-        margin-bottom: 25px;
-    }
-}
-
-.product__anti-title{
-    width: 80%;
-}
-
-.product__cards-solvents-active{
-    display: grid;
-}
-
-.product__cards-antifreez-active{
-    display: grid;
-}
   
 .pop-up{
     width: 100%;
@@ -194,12 +158,49 @@ a{
     z-index: 1;
 }
   
+.footer__logo{
+    width: 112px;
+}
+
+.header__buttons{
+    display: none;
+}
+
+
+@media screen and (max-width: 600px){
+    .header__buttons{
+        display: flex;
+    }
+}
+
+.header__phone{
+    align-self: center;
+    border-radius: 50%;
+    background-image: -moz-linear-gradient( 90deg, rgb(102,178,46) 0%, rgb(134,194,89) 53%, rgb(165,210,132) 100%);
+    background-image: -webkit-linear-gradient( 90deg, rgb(102,178,46) 0%, rgb(134,194,89) 53%, rgb(165,210,132) 100%);
+    background-image: -ms-linear-gradient( 90deg, rgb(102,178,46) 0%, rgb(134,194,89) 53%, rgb(165,210,132) 100%);
+    box-shadow: 0px 3px 7.36px 0.64px rgba(121, 121, 121, 0.3);
+    width: 41px;
+    height: 41px;
+    margin-right: 16px;
+    display: flex;
+}
+
+.header__phone-image{
+    width: 22px;
+    height: 22px;
+    object-fit: contain;
+    margin: auto;
+}
   
-
-
+.achor{
+    display: block;
+    position: relative;
+    top:-50px;
+    visibility: hidden;
+}
   
-
-
-  
-
+.header__nav_call-link{
+    border: 1px solid red;;
+}
   
