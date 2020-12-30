@@ -1,0 +1,14 @@
+.product__mob-minititle{
+    display: none;
+    text-align: center;
+    font-size: 15px;
+    line-height: 1.6;
+    font-weight: 400;
+    margin-bottom: 11px;
+}
+
+@media screen and (max-width: 500px){
+    .product__mob-minititle{
+        display: block;
+    }
+}
