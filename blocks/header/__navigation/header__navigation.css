@@ -4,6 +4,8 @@
     line-height: 24px;
     font-weight: 400;   
     align-items: flex-end;
+    position: relative;
+    bottom: 3px;
 }
 
 @media screen and (max-width: 1170px){
